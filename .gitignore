@@ -1,0 +1,33 @@
+# IDE
+.idea/
+.vscode/
+
+# Codex local artifacts
+.codex/
+codex/
+
+# Logs
+*.log
+logs/
+
+# Archives and packages
+*.tar
+*.tar.gz
+*.tgz
+*.zip
+*.7z
+*.rar
+
+# Temporary and build outputs
+tmp/
+temp/
+work/
+outputs/
+target/
+build/
+dist/
+out/
+
+# OS
+Thumbs.db
+.DS_Store

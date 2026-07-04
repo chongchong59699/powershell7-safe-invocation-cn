@@ -1,0 +1,7 @@
+interface:
+  display_name: "PowerShell 7 安全调用"
+  short_description: "中文 PowerShell 7 安全脚本调用与排错规范"
+  default_prompt: "使用 $powershell7-safe-invocation-cn 安全编写或执行 Windows PowerShell 7 命令。"
+
+policy:
+  allow_implicit_invocation: true
