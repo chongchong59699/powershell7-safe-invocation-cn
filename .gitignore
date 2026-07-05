@@ -31,3 +31,5 @@ out/
 # OS
 Thumbs.db
 .DS_Store
+
+PROJECT_MEMORY.md

@@ -220,4 +220,4 @@ if ($process.ExitCode -ne 0) {
 
 ## License
 
-发布前请根据你的需要补充许可证文件，例如 `MIT License`。
+本项目基于 [MIT License](LICENSE) 开源。
