@@ -71,21 +71,19 @@ Copy-Item -LiteralPath $source -Destination $dest -Recurse
 发布到 GitHub 后，可以这样安装：
 
 ```powershell
-git clone https://github.com/<your-name>/powershell7-safe-invocation-cn.git
+git clone https://github.com/chongchong59699/powershell7-safe-invocation-cn.git
 
 $source = '.\powershell7-safe-invocation-cn\powershell7-safe-invocation-cn'
 $dest = Join-Path $HOME '.codex\skills\powershell7-safe-invocation-cn'
 Copy-Item -LiteralPath $source -Destination $dest -Recurse
 ```
 
-把 `<your-name>` 替换为你的 GitHub 用户名或组织名。
-
 ### 方式三：使用 Codex skill installer
 
 如果你的 Codex 环境支持从 GitHub 安装 skill，可以使用类似命令：
 
 ```text
-安装 https://github.com/<your-name>/powershell7-safe-invocation-cn/tree/main/powershell7-safe-invocation-cn
+安装 https://github.com/chongchong59699/powershell7-safe-invocation-cn/tree/main/powershell7-safe-invocation-cn
 ```
 
 ## 如何触发
